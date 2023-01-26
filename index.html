@@ -689,32 +689,37 @@ organisation.
                             </div>
                         </div>
 
-                        <form action="" class="contact__form grid">
+                        <form action="https://formspree.io/f/mknaonkn" method="post" class="contact__form grid">
                             <div class="conatct__inputs grid">
                                 <div class="contact__content">
                                     <label for="" class="contact__label">Name</label>
-                                    <input type="text" class="contact__input">
+                                    <input type="text" name="fname" autocomplete="off" required class="contact__input">
                                 </div>
                                 
                                 <div class="contact__content">
                                     <label for="" class="contact__label">Email</label>
-                                    <input type="email" class="contact__input">
+                                    <input type="email" name="emaill" autocomplete="off" required class="contact__input">
                                 </div>
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">project</label>
-                                <input type="text" class="contact__input">
+                                <input type="text" name="proj" autocomplete="off" required class="contact__input">
                             </div>
                             <div class="contact__content">
                                 <label for="" class="contact__label">Message</label>
-                                <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                                <textarea name="message" id="" autocomplete="off" required cols="0" rows="7" class="contact__input"></textarea>
                             </div>
 
                             <div>
-                                <a href="#" class="button button--flex">
-                                    Send Message
-                                    <i class="uil uil-message button__icon"></i>
-                                </a>
+                                <!-- <a class="button button--flex"> -->
+                                    <button type="submit" class="button button--flex" value="send Message">send Message
+                                        <i class="uil uil-message button__icon"></i>
+                                    </button>
+
+                                    <!-- Send Message -->
+                                    <!-- <i class="uil uil-message button__icon"></i> -->
+                                <!-- </a> -->
+                                
                             </div>
                         </form>
                         <p> Note: These is just an example send Message doesn't work </p>
