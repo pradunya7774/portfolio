@@ -473,13 +473,13 @@ img {
   width: 70%;
 }
 .skills__js{
-  width: 65%;
+  width: 50%;
 }
 .skills__react{
-  width: 60%;
+  width: 50%;
 }
 .skills__php{
-  width: 60%;
+  width: 0%;
 }.skills__nodejs{
   width: 65%;
 }.skills__firebase{
